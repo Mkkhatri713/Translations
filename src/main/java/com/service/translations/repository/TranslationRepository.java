@@ -75,7 +75,6 @@ SELECT new com.service.translations.dto.FullTranslationExportDTO(
 FROM Translation t
 LEFT JOIN t.locale
 LEFT JOIN t.tag
-WHERE t.updatedAt = (SELECT MAX(t2.updatedAt) FROM Translation t2)
 ORDER BY t.updatedAt DESC
 """)
     @QueryHints({
