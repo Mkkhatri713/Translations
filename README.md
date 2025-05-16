@@ -29,10 +29,10 @@ cd translations
 
 In the project root directory, run:
 
+you will see the logs and test cases run while making build 
 ```bash
 docker build -t translations-app .
 ```
-
 ---
 
 ### Step 3: Run the Application Using Docker Compose
