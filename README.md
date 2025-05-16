@@ -40,7 +40,7 @@ docker build -t translations-app .
 To start the app and all required services, run:
 
 ```bash
-docker-compose up
+docker compose up
 ```
 
 Once started, the logs will display the application boot process and data seeding output.
